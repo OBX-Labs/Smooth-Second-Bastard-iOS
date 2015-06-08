@@ -1,0 +1,17 @@
+Smooth Second Bastard is a meditation on the difference between being asked “where ya from?” and being asked “are you from around here?” Growing up where and how I did, I tend to see insider-outsider dynamics before I see prejudice. Such a viewpoint can be gracious or naïve, and I sometimes find it difficult to tell which.
+
+You read the poem by touching the screen. Wherever you  touch, a line of the text spools out either side of your finger. Each successive touch spools out the next line of the poem. When you release, one of the words of the line stays on screen while the rest fall away. After three words have built up, each new word--created by releasing a line--leaves behind one letter as the rest disappear off-screen. The lines, the words, and the letters all form their own texts, creating a three-dimensional poem.
+
+Smooth Second Bastard is sold as a Limited Edition of 100.
+
+Smooth Second Bastard for the iPad/iPhone/iPod Touch is the foruth in a series of P.o.E.M.M.s (Poem for Excitable [Mobile] Media) created specifically for reading via touch interaction.
+
+To find out more about the P.o.E.M.M.s, please visit www.poemm.net, or look for the #poemm Twitter tag.
+
+Version 1.3.2
+
+Programming by Christian Gratton
+and Bruno Nadeau, from original code by Nadeau.
+Based on the NextText architecture by Lewis and Nadeau
+
+2013 © Jason Edward Lewis
