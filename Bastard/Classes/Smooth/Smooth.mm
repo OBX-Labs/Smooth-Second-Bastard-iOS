@@ -81,7 +81,8 @@ static long IDLE_TIMEOUT = 20*60;
         bgColorSpeed[0] = bgColorSpeed[1] = bgColorSpeed[2] = 0.00005;
         
         //text properties
-        bounds = CGRectMake([UIScreen mainScreen].bounds.origin.x, [UIScreen mainScreen].bounds.origin.y, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width);
+        //VICTOR - TEST
+        bounds = CGRectMake([UIScreen mainScreen].bounds.origin.x, [UIScreen mainScreen].bounds.origin.y, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
         
         //tessSentence = nil;
         doneTessSentences = [[NSMutableArray alloc] init];

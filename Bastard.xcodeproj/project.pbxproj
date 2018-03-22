@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57F00E422045DB1F0022C9E2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F00E412045DB1F0022C9E2 /* Media.xcassets */; };
 		95482A0018907EE000BA1D18 /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 954829FA18907EE000BA1D18 /* death.png */; };
 		95482A0118907EE000BA1D18 /* death@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954829FB18907EE000BA1D18 /* death@2x.png */; };
 		95482A0218907EE000BA1D18 /* rattlesnakes.png in Resources */ = {isa = PBXBuildFile; fileRef = 954829FC18907EE000BA1D18 /* rattlesnakes.png */; };
@@ -182,6 +183,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F00E412045DB1F0022C9E2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		954829FA18907EE000BA1D18 /* death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death.png; sourceTree = "<group>"; };
 		954829FB18907EE000BA1D18 /* death@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "death@2x.png"; sourceTree = "<group>"; };
 		954829FC18907EE000BA1D18 /* rattlesnakes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rattlesnakes.png; sourceTree = "<group>"; };
@@ -1059,6 +1061,7 @@
 		D2F5E4EC17293E0E0098D476 = {
 			isa = PBXGroup;
 			children = (
+				57F00E412045DB1F0022C9E2 /* Media.xcassets */,
 				D2F5E4FE17293E0E0098D476 /* Bastard */,
 				D2F5E4F717293E0E0098D476 /* Frameworks */,
 				D2378094172A4CD8003B6505 /* libs */,
@@ -1207,6 +1210,7 @@
 				TargetAttributes = {
 					D2F5E4F417293E0E0098D476 = {
 						DevelopmentTeam = 6B68QQG3FR;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1266,6 +1270,7 @@
 				D2B64BB41729C709002B0E23 /* guestpoets.png in Resources */,
 				D2B64BB51729C709002B0E23 /* guestpoets@2x.png in Resources */,
 				95482A0318907EE000BA1D18 /* rattlesnakes@2x.png in Resources */,
+				57F00E422045DB1F0022C9E2 /* Media.xcassets in Resources */,
 				95482A0018907EE000BA1D18 /* death.png in Resources */,
 				D2B64BB61729C709002B0E23 /* info.png in Resources */,
 				D2B64BB71729C709002B0E23 /* info@2x.png in Resources */,
@@ -1453,21 +1458,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bastard/Bastard-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Bastard/Bastard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Bastard/libs/TestFlight-1.2.4\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Bastard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1bfaf8ae-d240-4ccf-85ed-9ca97af035d3";
-				SDKROOT = iphoneos7.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s armv6 arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1535,22 +1546,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Jason Lewis (6994C36BD5)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bastard/Bastard-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Bastard/Bastard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Bastard/libs/TestFlight-1.2.4\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Bastard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1bfaf8ae-d240-4ccf-85ed-9ca97af035d3";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1bfaf8ae-d240-4ccf-85ed-9ca97af035d3";
-				SDKROOT = iphoneos7.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s armv6 arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1560,22 +1577,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bastard/Bastard-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Bastard/Bastard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Bastard/libs/TestFlight-1.2.4\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Bastard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ed91b630-4ec5-4ac3-a315-cab3b5240ce4";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ed91b630-4ec5-4ac3-a315-cab3b5240ce4";
-				SDKROOT = iphoneos7.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s armv6 arm64";
 				WRAPPER_EXTENSION = app;
 			};
