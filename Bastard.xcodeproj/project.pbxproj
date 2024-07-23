@@ -21,7 +21,6 @@
 		95482A0D189080E000BA1D18 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 95482A0A189080E000BA1D18 /* Icon-120.png */; };
 		95482A0E189080E000BA1D18 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 95482A0B189080E000BA1D18 /* Icon-152.png */; };
 		D2378098172A4D31003B6505 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2378096172A4D31003B6505 /* libTestFlight.a */; };
-		D2B64B801729C709002B0E23 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B64AE51729C709002B0E23 /* Appirater.m */; };
 		D2B64B811729C709002B0E23 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B64AE91729C709002B0E23 /* DejalActivityView.m */; };
 		D2B64B821729C709002B0E23 /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B64AED1729C709002B0E23 /* OKNewAccount.m */; };
 		D2B64B831729C709002B0E23 /* OKRequestPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B64AEF1729C709002B0E23 /* OKRequestPassword.m */; };
@@ -230,9 +229,6 @@
 		95482A0B189080E000BA1D18 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
 		D2378096172A4D31003B6505 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		D2378097172A4D31003B6505 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		D2B64AE41729C709002B0E23 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		D2B64AE51729C709002B0E23 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
-		D2B64AE61729C709002B0E23 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		D2B64AE81729C709002B0E23 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		D2B64AE91729C709002B0E23 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		D2B64AEC1729C709002B0E23 /* OKNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNewAccount.h; sourceTree = "<group>"; };
@@ -532,7 +528,6 @@
 		D2B64AE21729C709002B0E23 /* OKPoEMM */ = {
 			isa = PBXGroup;
 			children = (
-				D2B64AE31729C709002B0E23 /* Appirater */,
 				D2B64AE71729C709002B0E23 /* DSActivityView */,
 				D2B64AEA1729C709002B0E23 /* OKAccountManager */,
 				D2B64AFB1729C709002B0E23 /* OKInfoView */,
@@ -548,16 +543,6 @@
 				D2B64B3A1729C709002B0E23 /* Resources */,
 			);
 			path = OKPoEMM;
-			sourceTree = "<group>";
-		};
-		D2B64AE31729C709002B0E23 /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				D2B64AE41729C709002B0E23 /* Appirater.h */,
-				D2B64AE51729C709002B0E23 /* Appirater.m */,
-				D2B64AE61729C709002B0E23 /* AppiraterDelegate.h */,
-			);
-			path = Appirater;
 			sourceTree = "<group>";
 		};
 		D2B64AE71729C709002B0E23 /* DSActivityView */ = {
@@ -1442,7 +1427,6 @@
 				D2D37FC61729BA87000C29CD /* CXMLNode_PrivateExtensions.m in Sources */,
 				D2D37FC71729BA87000C29CD /* CXMLNode_XPathExtensions.m in Sources */,
 				D2D37FC81729BA87000C29CD /* CTidy.m in Sources */,
-				D2B64B801729C709002B0E23 /* Appirater.m in Sources */,
 				D2B64B811729C709002B0E23 /* DejalActivityView.m in Sources */,
 				D2B64B821729C709002B0E23 /* OKNewAccount.m in Sources */,
 				D2B64B831729C709002B0E23 /* OKRequestPassword.m in Sources */,
