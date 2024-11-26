@@ -47,7 +47,7 @@ static float MOREAPPS_HEIGHT = 100.0f;
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     int maxVersions = [[OKAppProperties objectForKey:@"LimitedEditionMaxVersions"] intValue];
         
-    if(![prefs stringForKey:@"version"]) [limitedEdition setText:@"Not Registered"];
+    if(![prefs stringForKey:@"version"]) [limitedEdition setText:@""];
     else [limitedEdition setText:[NSString stringWithFormat:@"%@", ([[prefs stringForKey:@"version"] isEqualToString:@"DEMO"] ? @"DEMO" : [NSString stringWithFormat:@"Limited Edition %@ out of %i.", [prefs stringForKey:@"version"], maxVersions])]];
 }
 
