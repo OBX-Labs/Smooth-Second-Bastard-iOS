@@ -1481,12 +1481,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.73;
+				CURRENT_PROJECT_VERSION = 1.3.74;
 				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bastard/Bastard-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Bastard/Bastard-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bastard;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1612,12 +1613,13 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.73;
+				CURRENT_PROJECT_VERSION = 1.3.74;
 				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bastard/Bastard-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Bastard/Bastard-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bastard;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1643,12 +1645,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3.73;
+				CURRENT_PROJECT_VERSION = 1.3.74;
 				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bastard/Bastard-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Bastard/Bastard-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bastard;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
